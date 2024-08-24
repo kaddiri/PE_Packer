@@ -22,12 +22,15 @@ The PE-Packer works by creating a packed executable file through the following p
 
 MyPackerProject/
 ├── CMakeLists.txt
+
 ├── packer/
 │ ├── CMakeLists.txt
 │ └── main.cpp
+|
 ├── stub/
 │ ├── CMakeLists.txt
 │ └── stub.cpp
+|
 └── dummy/
 ├── CMakeLists.txt
 └── dummy.cpp
