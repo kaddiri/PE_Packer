@@ -42,6 +42,7 @@ The PE-Packer works by creating a packed executable file through the following p
    ./packer
    ```
 This compresses the dummy executable and saves it as compressed.bin in the stub directory. 
+
 2. **Run the Stub**
    ```bash
    ./stub
