@@ -1,0 +1,6 @@
+project(Stub)
+
+find_package(ZLIB REQUIRED)
+
+add_executable(Stub stub.cpp)
+target_link_libraries(Stub PRIVATE ZLIB::ZLIB)

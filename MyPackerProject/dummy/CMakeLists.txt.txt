@@ -1,0 +1,3 @@
+project(Dummy)
+
+add_executable(Dummy dummy.cpp)

@@ -1,0 +1,6 @@
+project(Packer)
+
+find_package(ZLIB REQUIRED)
+
+add_executable(Packer main.cpp)
+target_link_libraries(Packer PRIVATE ZLIB::ZLIB)

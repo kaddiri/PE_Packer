@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(MyPackerProject)
+
+# Include subdirectories
+add_subdirectory(packer)
+add_subdirectory(stub)
+add_subdirectory(dummy)
