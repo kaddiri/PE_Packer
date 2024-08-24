@@ -18,22 +18,6 @@ The PE-Packer works by creating a packed executable file through the following p
    - The decompressed data is then loaded into memory and the program execution continues from the original entry point of the unpacked executable.
 
 **Disclaimer:** This is a minimal implementation of a PE packer. It may not handle all executable types and edge cases. Ensure to test it thoroughly in your environment.
-## Project Structure
-
-MyPackerProject/
-├── CMakeLists.txt
-
-├── packer/
-│ ├── CMakeLists.txt
-│ └── main.cpp
-|
-├── stub/
-│ ├── CMakeLists.txt
-│ └── stub.cpp
-|
-└── dummy/
-├── CMakeLists.txt
-└── dummy.cpp
 
 ## Building the Projects
 
