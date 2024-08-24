@@ -46,7 +46,7 @@ This compresses the dummy executable and saves it as compressed.bin in the stub 
 2. **Run the Stub**
    ```bash
    ./stub
-  ```
+   ```
 This decompresses compressed.bin and simulates loading the executable into memory.
 
 
